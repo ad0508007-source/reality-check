@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+        #inputScreen {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        #inputScreen input {
+            padding: 12px;
+            font-size: 18px;
+            border: 8px rgb(1, 29, 95) solid;
+            border-radius: 10pc;
+        }
+        #inputScreen button {
+            padding: 12px 20px;
+            font-size: 18px;
+            margin-left: 10px;
+            cursor: pointer;
+            border: 8px rgb(1, 29, 95) solid;
+            border-radius:20px;
+        }
+        #inputScreen button:hover {
+            background-color: rgb(1, 29, 95);
+            color: white;
+            border-color: white;
+            border-radius: 10pc;
+        }
+        #inputScreen input:hover{
+            border-radius: 20px;
+            border-color: white;
+            background-color: rgb(1,29,95);
+            color:white;
+        }
+        #imageScreen { 
+            position: absolute;
+            display: none;
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            overflow: hidden;
+    }
+            
+        #bgImage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+        </style>
+</head>
+<body style="background-image: url('https://tse2.mm.bing.net/th/id/OIP.i-lkGa8hQCg1xOx4cAtpRwHaNK?cb=defcachec2&pid=ImgDet&w=185&h=327&c=7&dpr=1.3&o=7&rm=3');">
+     <div id="inputScreen">
+    <input type="text" id="nameInput" placeholder="क्या  आप  नेहा  हैं |   'Yes / No'" size="25px">
+    <a href="next01.html"><button onclick="start()" style="padding: 12px 20px; font-size: 18px;">Yes</button></a>
+
+    
+
+</div>
+</body>
+</html>
