@@ -11,7 +11,7 @@
             background-size: cover;
             background-position: fixed;
             font-family: Arial, sans-serif;
-            background-image: url('https://tse2.mm.bing.net/th/id/OIP.i-lkGa8hQCg1xOx4cAtpRwHaNK?cb=defcachec2&pid=ImgDet&w=185&h=327&c=7&dpr=1.3&o=7&rm=3');
+            background-image: url('[https://tse2.mm.bing.net/th/id/OIP.i-lkGa8hQCg1xOx4cAtpRwHaNK?cb=defcachec2&pid=ImgDet&w=185&h=327&c=7&dpr=1.3&o=7&rm=3](https://th.bing.com/th/id/OIP.k4Cm-tAtpSxyA587G-nGVAHaLb?w=115&h=180&c=7&r=0&o=7&cb=defcachec2&dpr=1.3&pid=1.7&rm=3)');
         }
         #inputScreen {
             height: 100vh;
